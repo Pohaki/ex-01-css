@@ -1,6 +1,11 @@
 a{
   color:blue;
 }
-a[href^=http]{
+a[href*=http]{
   font-weight: bold;
+}
+a[href*=http]::before{
+   content: url('fleche.png');
+   font-size: 10px;
+   padding-right: 5px;
 }
