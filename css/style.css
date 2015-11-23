@@ -1,0 +1,6 @@
+a{
+  color:blue;
+}
+a[href^=http]{
+  font-weight: bold;
+}
